@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\new_datascience\Nepali News Dataset\venv"
+VIRTUAL_ENV="D:\new_datascience\Tihar Assignment\Nepali News Dataset\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
