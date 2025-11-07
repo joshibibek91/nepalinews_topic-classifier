@@ -8,7 +8,7 @@ st.title("📰 Nepali News Topic Classifier")
 # -----------------------------
 # 🧩 Load the trained model
 # -----------------------------
-dbfile = open(r'D:\new_datascience\Tihar Assignment\Nepali News Dataset\NepaliLogisticRegression.pickle', 'rb')
+dbfile = open('NepaliLogisticRegression.pickle', 'rb')
 model = pickle.load(dbfile)
 
 
