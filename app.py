@@ -42,4 +42,4 @@ if st.button("🔮 विषय अनुमान गर्नुहोस्")
         st.subheader("अनुमान गरिएको विषय:")
         st.success(result)
 
-        st.balloons()
+    
