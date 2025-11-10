@@ -32,14 +32,14 @@ if st.button("🔮 विषय अनुमान गर्नुहोस्")
         df = pd.DataFrame({
                'news': [text],
                 })
-        st.dataframe(df)
+        # st.dataframe(df)
         result = model.predict(news_data_df['predict_news'])
 
         # Show cleaned text and result
         st.subheader("समाचार:")
-        st.write(result)
+        st.write(news_data_df['predict_news'][0])
 
         st.subheader("अनुमान गरिएको विषय:")
-        st.success(result)
+        st.success(result[0])
 
     
